@@ -52,7 +52,7 @@ public class CanopyRentalCharge{
          System.out.println("TOTAL ADDITIONAL CHARGES(IF ANY)  : "+addCharge);
          System.out.println("GRAND TOTAL                       : "+grandTotal);
          System.out.println();
-         System.out.print("Do you want to continue? (Y/N)      : ");
+         System.out.print("Do you want to continue? (Y/N)    : ");
          prompt = input.next().charAt(0);
          }
          while(prompt == 'Y');
