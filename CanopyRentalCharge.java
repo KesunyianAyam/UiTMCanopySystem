@@ -10,7 +10,7 @@ public class CanopyRentalCharge{
       String participantType;
       char participantCode, itemCode, prompt;
       int totalCanopies, totalDays;
-      double totalCharge, addCharge, canopyCharge, grandTotal;
+      double addCharge, canopyCharge, grandTotal;
       
       do{
          System.out.println("UiTM P. Pinang");
@@ -56,6 +56,8 @@ public class CanopyRentalCharge{
          prompt = input.next().charAt(0);
          }
          while(prompt == 'Y');
+
+         input.close();
    }
       
    double canopyCharges(char code, int canopy, int day){
