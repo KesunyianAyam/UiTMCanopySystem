@@ -15,7 +15,7 @@ public class CanopyRentalCharge {
       do {
          System.out.println("UiTM P. Pinang");
          System.out.println("Entrepreneurship Week");
-         System.out.println("Canopy Rent System by Ismail Arif (github.io/mayelz)");
+         System.out.println("Canopy Rent System by Ismail Arif (https://kesunyianayam.github.io/)");
          System.out.println();
          System.out.println("Please enter participant code");
          System.out.println("T = Students, S = Staffs, O = Outsiders");
